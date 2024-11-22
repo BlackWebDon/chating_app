@@ -1,0 +1,144 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+#main{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(230, 231, 252);
+    padding: 30px;
+}
+.head{
+    display: flex;
+    height: fit-content;
+    padding: 10px;
+    border-radius: 15px;
+    justify-content: center;
+    justify-items: center;
+    background-color: rgb(141, 5, 245);
+}
+.left{
+    display:flex;
+    width: 50%;
+    height: 50px; 
+    padding: 5px;
+    color: rgb(255, 254, 254);
+    font-weight: 700;
+    font-size: 30px;
+}
+.logo_text{
+    position: relative;
+    bottom: 10px;
+}
+.right{
+    color: white;
+    width: 50%;
+    height: 50px;
+    display: flex;
+    justify-content: right;
+    font-size: 30px;
+    padding: 5px;
+}
+.icon
+{
+    margin-left: 10px;
+    font-weight: 700;
+    font-size: 26px;
+    cursor: pointer;
+}
+#room_name{
+    width: 50%;
+    height: 35px;
+    margin-top: 10px;
+    border-radius: 10px;
+    padding: 10px;
+    font-weight: 700;
+}
+.btn_addroom{
+    width: 20%;
+    height: 35px;
+    background-color: rgb(141, 5, 245);
+    border-radius: 15px;
+    color: white;
+    font-weight: 700;
+}
+.room_name{
+    width: 40%;
+    height: fit-content;
+    font-size: 16px;
+    color: white;
+    margin-top: 30px;
+    cursor: pointer;
+}
+.trending{
+    background-color:rgb(141, 5, 245);
+    border-radius: 10px;
+    padding: 10px;
+    font-weight: 800;
+    color: #fff;
+    
+}
+#output
+{
+    background-color:rgb(141, 5, 245);
+    height: 490px;
+    width: 80%;
+    text-align: left;
+    color: #fff;
+    padding: 10px;
+    border-radius: 15px;
+    width: 70%;
+    overflow: auto;
+}
+
+/* chatbox */
+
+#message_text{
+    width: 80%;
+    height: 40px;
+    margin: 5px;
+    margin-left: 45px;
+    border-radius: 15px;
+    padding: 15px;
+    font-weight: 700;
+
+}
+#send_btn{
+    width: 60px;
+    height: 50px;
+    border-radius: 50%;
+    font-size: 25px;
+    cursor: pointer;
+    background-color: rgb(141, 5, 245);
+    color: white;
+    border: 1px solid rgb(141, 5, 245);
+    
+}
+.message_container
+{
+    width: 88%;
+    height: 73vh;
+    color: rgb(21, 21, 21);
+    background-color: rgb(141, 5, 245);
+    color: white;
+    font-weight: 700;
+    border-radius: 15px;
+    margin-top: 15px;
+}
+#RoomIdInfo{
+    font-size: 25px;
+    height: 45px;
+    background-color: aliceblue;
+    border-radius: 12px;
+    padding: 10px;
+    color:rgb(141, 5, 245) ;
+}
+.user_tick{
+    height: 20px;
+}
+.glyphicon_glyphicon-thumbs-up{
+    background-color: green;
+    border: 1px solid green;
+    color: white;
+}

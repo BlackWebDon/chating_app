@@ -1,0 +1,98 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+#main{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    border: 2px solid black;
+    background-color: rgb(230, 231, 252);
+    padding: 30px;
+}
+#LHS{
+    background-color: rgb(161, 92, 214);
+    height: 100%;
+    width: 50%;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    display: flex;
+    padding: 15px;
+}
+.cricle{
+    height: 15px;
+    width: 15px;
+    margin:5px;
+    border-radius: 50%;
+}
+#logo_box{
+    border: 2px solid rgb(141, 5, 245);
+    height: 80px;
+    width: 80px;
+    background-color: white;
+    margin-top: 180px;
+    border-radius: 50%;
+    padding: auto;
+    position: relative;
+    left: 22vh; 
+}
+#Fsqure{
+    height: 40px;
+    width: 40px;
+    background-color: rgb(32, 14, 49);
+    position: relative;
+    top: 20px;
+    transform: rotate(45deg);
+}
+#Ssqure{
+    height: 40px;
+    width: 50px;
+    border-radius: 5px;
+    background-color: rgb(161, 92, 214);
+    position: relative;
+    bottom: 19px;
+    font-family: "Prompt", sans-serif;
+    letter-spacing: 2px;  
+}
+.heading{
+    font-family: "Prompt", sans-serif;
+    font-weight: 100;
+    color: white;
+    position: relative;
+    left: 22vh;
+}
+.ri-global-line{
+    color: rgb(238, 232, 232);
+    position: relative;
+    left: 22vh;
+}
+#RHS{
+    background-color: rgb(253, 253, 252);
+    height: 100%;
+    width: 50%;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding: 30px;
+}
+.fonts_heading{
+    font-family: "Prompt", sans-serif;
+    margin-top: 170px;
+    color: rgb(96, 88, 88);
+}
+#input_box{
+    width: 80%;
+    height: 35px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid rgb(96, 88, 88) ;
+}
+#btn{
+    width: 20%;
+    height: 35px;
+    background-color:rgb(161, 92, 214) ;
+    border: 1px solid rgb(161, 92, 214);
+    border-radius: 5px;
+    margin-left: 70%;
+    cursor: pointer;
+}

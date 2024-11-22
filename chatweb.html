@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chatweb</title>
+    <link rel="stylesheet" href="main.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet"/>
+
+    <script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-database.js"></script>
+</head>
+<body>
+    <div id="main">
+        <div class="head">
+            <div class="left">
+                <i class="ri-user-line" class="icon"></i>
+             <label >Acelnvoice</label>
+            </div>
+            <div class="right">
+                <i class="ri-logout-box-r-line" class="icon" onclick="logout()">logout</i>
+         </div>
+        </div>
+        <center>
+           
+            <label id="user_name" class="icon"></label>
+            <br><br>
+            <label style="font-weight: 700;">Make A New Room</label>
+            <br>
+            <input type="text" id="room_name" >
+            <br><br>
+            <button class="btn_addroom" onclick="add_room()">Add Room</button>
+        <br><br>
+        <label class="trending">#Trendign Room</label>
+        
+        <div id="output">
+            
+        </div>
+    </center>
+    </div>
+</body>
+<script src="main.js"></script>
+</html>

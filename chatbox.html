@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chatweb</title>
+    <link rel="stylesheet" href="main.css">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet"/>
+    <!-- Option 1: Include in HTML -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+
+    <script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-database.js"></script>
+</head>
+<body>
+    <div id="main">
+        <div class="head">
+            <div class="left">
+              <i class="ri-user-line" class="icon"></i>
+             <label id="username"></label>
+             
+            </div>
+            <div class="right">
+                <i class="ri-logout-box-r-line" class="icon" onclick="logout()">logout</i>
+         </div>
+        </div>
+        <center>
+        <div id="RoomIdInfo">
+          <span id="RoomId">ramkumar</span>
+         </div>
+         <div id="output">
+          
+         </div>
+      </center>
+        <div id="send_box">
+          <input  id="message_text" placeholder="Type Some thing...">
+          <button onclick="SendMessage()" id="send_btn"><i class="ri-send-plane-2-fill"></i></button>
+      </div>
+    </div>
+</body>
+<script src="chatbox.js"></script>
+</html>
